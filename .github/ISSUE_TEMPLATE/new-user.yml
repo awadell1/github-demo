@@ -36,8 +36,8 @@ body:
     attributes:
       label: "Are you subscribed to arjuna-users@lists.andrew.cmu.edu?"
       options:
-        - Yes, or I have requested access to the list serve
-        - No, and I acknowledge that I am may miss out on critical information
+        - "Yes, or I have requested access to the list serve"
+        - "No, and I acknowledge that I am may miss out on critical information"
     validations:
       required: true
   - type: markdown
