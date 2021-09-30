@@ -6,12 +6,12 @@ labels: ["admin-tasks"]
 body:
   - type: input
     label: Andrew ID
-    description: Enter your AndrewID
+    description: "Enter your AndrewID"
     validations:
       required: true
   - type: dropdown
     label: Group Name
-    description: What group are you in?
+    description: "What group are you in?"
     options:
       - Venkat Viswanathan
       - Noa Marom
@@ -22,7 +22,7 @@ body:
       required: true
   - type: input
     label: Group Name (Other)
-    description: If Other, what is your advisor's AndrewID?
+    description: "If Other, what is your advisor's AndrewID?"
   - type: markdown
     value: |
       ## Arjuna Mailing List
