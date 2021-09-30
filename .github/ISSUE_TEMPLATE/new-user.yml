@@ -49,7 +49,7 @@ body:
     attributes:
       label: "I will not block emails from root@coe.psc.edu"
       options:
-        - Yes
-        - No, and I acknowledge that I may miss out on critical information
+        - "Yes"
+        - "No, and I acknowledge that I may miss out on critical information"
     validations:
       required: true
