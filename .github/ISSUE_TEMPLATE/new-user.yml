@@ -1,7 +1,8 @@
 name: New User Request
 description: Request Access to Arjuna
 title: New User Request
-labels: ["admin-tasks"]
+labels:
+  - "admin-tasks"
 
 body:
   - type: input
@@ -15,11 +16,11 @@ body:
       label: Group Name
       description: "What group are you in?"
       options:
-        - Venkat Viswanathan
-        - Noa Marom
-        - Zachary Ulissi
-        - Amir Barati Farimani
-        - Other
+        - "Venkat Viswanathan"
+        - "Noa Marom"
+        - "Zachary Ulissi"
+        - "Amir Barati Farimani"
+        - "Other"
      validations:
       required: true
   - type: input
