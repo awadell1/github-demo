@@ -5,14 +5,15 @@ labels: ["admin-tasks"]
 
 body:
   - type: input
-    label: Andrew ID
-    description: "Enter your AndrewID"
+    attributes:
+      label: Andrew ID
+      description: "Enter your AndrewID"
     validations:
       required: true
   - type: dropdown
-    label: Group Name
-    description: "What group are you in?"
     attributes:
+      label: Group Name
+      description: "What group are you in?"
       options:
         - Venkat Viswanathan
         - Noa Marom
@@ -22,14 +23,15 @@ body:
      validations:
       required: true
   - type: input
-    label: Group Name (Other)
-    description: "If Other, what is your advisor's AndrewID?"
+    attributes:
+      label: Group Name (Other)
+      description: "If Other, what is your advisor's AndrewID?"
   - type: markdown
-    value: |
-      ## Arjuna Mailing List
-      We use the Arjuna-users mailing list to disseminate important information related to maintenance windows, service interruptions or changes in policy. You can request an account here: [https://lists.andrew.cmu.edu/mailman/listinfo/arjuna-users]()
+    attributes:
+      value: |
+        ## Arjuna Mailing List
+        We use the Arjuna-users mailing list to disseminate important information related to maintenance windows, service interruptions or changes in policy. You can request an account here: [https://lists.andrew.cmu.edu/mailman/listinfo/arjuna-users]()
   - type: dropdown
-    id: mailing_list
     attributes:
       label: "Are you subscribed to arjuna-users@lists.andrew.cmu.edu?"
       options:
@@ -38,11 +40,11 @@ body:
       validations:
         required: true
   - type: markdown
-    value: |
-      ## Emails from root@coe.psc.edu
-      Automated emails regarding disk usage, account creation/deactivation/termination are sent by `root@coe.psc.edu`. Some email providers may mark these emails as spam, consider adding a rule to prevent this. 
+    attributes:
+      value: |
+        ## Emails from root@coe.psc.edu
+        Automated emails regarding disk usage, account creation/deactivation/termination are sent by `root@coe.psc.edu`. Some email providers may mark these emails as spam, consider adding a rule to prevent this. 
   - type: dropdown
-    id: emails
     attributes:
       label: "I will not block emails from root@coe.psc.edu"
       options:
