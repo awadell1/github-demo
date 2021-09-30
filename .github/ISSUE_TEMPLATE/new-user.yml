@@ -58,4 +58,6 @@ body:
     attributes:
       value: |
         ## Next steps
-        You should recieve an email from `the Arjuna Admins <root@coe.psc.edu` with your login information in 10 business days. If not please comment on this issue. ***Do not open another issue***
+        You will recieve an email from `the Arjuna Admins <root@coe.psc.edu` with your login information in 10 business days.
+
+        If you do not, please comment on this issue, ***do not open another issue***
