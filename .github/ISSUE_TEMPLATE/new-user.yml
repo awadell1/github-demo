@@ -54,3 +54,8 @@ body:
         - "No, and I acknowledge that I may miss out on critical information"
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Next steps
+        You should recieve an email from `the Arjuna Admins <root@coe.psc.edu` with your login information in 10 business days. If not please comment on this issue. ***Do not open another issue***
