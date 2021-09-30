@@ -11,3 +11,15 @@ body:
       description: "Enter your AndrewID"
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      label: Group Name
+      description: "What group are you in?"
+      options:
+        - "Venkat Viswanathan"
+        - "Noa Marom"
+        - "Zachary Ulissi"
+        - "Amir Barati Farimani"
+        - "Other"
+     validations:
+      required: true
