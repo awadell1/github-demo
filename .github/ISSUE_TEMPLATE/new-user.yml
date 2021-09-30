@@ -31,7 +31,8 @@ body:
     attributes:
       value: |
         ## Arjuna Mailing List
-        We use the Arjuna-users mailing list to disseminate important information related to maintenance windows, service interruptions or changes in policy. You can request an account here: [https://lists.andrew.cmu.edu/mailman/listinfo/arjuna-users]()
+        We use the Arjuna-users mailing list to disseminate important information related to maintenance windows, service interruptions or changes in policy.
+        You can request an account here: [https://lists.andrew.cmu.edu/mailman/listinfo/arjuna-users]()
   - type: dropdown
     attributes:
       label: "Are you subscribed to arjuna-users@lists.andrew.cmu.edu?"
