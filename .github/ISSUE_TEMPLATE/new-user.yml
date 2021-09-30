@@ -12,12 +12,13 @@ body:
   - type: dropdown
     label: Group Name
     description: "What group are you in?"
-    options:
-      - Venkat Viswanathan
-      - Noa Marom
-      - Zachary Ulissi
-      - Amir Barati Farimani
-      - Other
+    attributes:
+      options:
+        - Venkat Viswanathan
+        - Noa Marom
+        - Zachary Ulissi
+        - Amir Barati Farimani
+        - Other
      validations:
       required: true
   - type: input
